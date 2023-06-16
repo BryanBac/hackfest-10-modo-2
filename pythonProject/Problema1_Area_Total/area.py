@@ -62,6 +62,7 @@ def CalcularIguales(lista):
         lado1 = 0
         lado2 = 0
         if i < len(lista) - 1:
+            # Aquí hago mis comparaciones de posiciones para verificar si se encuentra dentro de algun otro
             if lista[i][0]["x"] < lista[i+1][1]["x"] and lista[i+1][0]["x"] < lista[i][1]["x"]:
                 lado1 = lista[i][1]["x"] - lista[i+1][0]["x"]
                 if lista[i + 1][1]["y"] > lista[i][1]["y"] > lista[i + 1][0]["y"]:
