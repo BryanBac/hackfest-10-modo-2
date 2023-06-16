@@ -1,0 +1,1 @@
+# Ejecutar solo el py dentro de cada problema
